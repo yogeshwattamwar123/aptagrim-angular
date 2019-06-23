@@ -3,15 +3,15 @@ const express= require('express'),
 
 const app =express();
 
-app.use(express.static('./dist/aptagrim-angular'));
+app.use(express.static('./dist/aptagrim-site'));
 
 app.get('/*', (req,res)=>{
 
-res.sendFile(path.join(_dirname,'/dist/aptagrim-angular/index.html'));
+res.sendFile(path.join(_dirname,'/dist/aptagrim-site/index.html'));
 
 });
 
 app.listen(preocess.env.PORT || 8080, ()=>{
-xonsole.log('server started');
+console.log('server started');
 
 })
