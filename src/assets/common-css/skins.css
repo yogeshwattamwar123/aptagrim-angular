@@ -1,0 +1,80 @@
+.primary {
+    color: #189dbc
+}
+
+a.primary-hover:hover {
+    color: #189dbc
+}
+
+.primary-back {
+    background-color: #189dbc
+}
+
+a.primary-back-hover:hover,
+.btn-default.primary-back-hover:hover {
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(122,174,186,1) 20%, rgba(100,170,186,1) 40%, rgba(72,165,186,1) 60%, rgba(37,158,186,1) 81%, rgba(0,152,186,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%,rgba(122,174,186,1) 20%,rgba(100,170,186,1) 40%,rgba(72,165,186,1) 60%,rgba(37,158,186,1) 81%,rgba(0,152,186,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgb(131, 220, 241) 20%,rgb(93, 225, 255) 40%,rgba(72,165,186,1) 60%,rgb(30, 153, 181) 81%,rgb(0, 108, 132) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#0098ba',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.primary-2-back {
+    background-color: #189dbc
+}
+
+.st-nav-trigger {
+    box-shadow: 0 0 10px #189dbc
+}
+
+.st-nav-trigger span {
+    background-color: #189dbc
+}
+
+.st-nav-trigger.menu-is-open span::before,
+.st-nav-trigger.menu-is-open span::after {
+    background-color: #189dbc
+}
+
+.primary-2-box-shadow {
+    box-shadow: 0 0 10px #189dbc!important
+}
+
+.primary-3 {
+    color: #B649FF
+}
+
+.secondary {
+    color: #00F2FF
+}
+
+.secondary-hover:hover {
+    color: #00F2FF
+}
+
+/*.main-gradient {
+    background: rgb(255,255,255); 
+    background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(122,174,186,1) 20%, rgba(100,170,186,1) 40%, rgba(72,165,186,1) 60%, rgba(37,158,186,1) 81%, rgba(0,152,186,1) 100%); 
+    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%,rgba(122,174,186,1) 20%,rgba(100,170,186,1) 40%,rgba(72,165,186,1) 60%,rgba(37,158,186,1) 81%,rgba(0,152,186,1) 100%); 
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgb(131, 220, 241) 20%,rgb(93, 225, 255) 40%,rgba(72,165,186,1) 60%,rgb(30, 153, 181) 81%,rgb(0, 108, 132) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#0098ba',GradientType=1 ); 
+}*/
+
+.black-gradient {
+        background: rgba(0, 0, 0, 0.38);
+}
+
+.image-gradient {
+    background: #189dbc
+}
+
+.skill-bar-gradient {
+    background-image: -webkit-linear-gradient(left, #00BBFF, #D42BFF 100%);
+    background-image: linear-gradient(to right, #00BBFF, #D42BFF 100%)
+}
+
+.button-gradient {
+    background-image: -webkit-linear-gradient(left, #00F2FF, #00BBFF 100%);
+    background-image: linear-gradient(to right, #00F2FF, #00BBFF 100%);
+    border: 1px solid #00F2FF
+}

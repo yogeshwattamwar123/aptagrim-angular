@@ -1,0 +1,237 @@
+		<!-- Hero Section
+		================================================== -->
+		<section id="hero" class="hero-section career-section">
+		    <div class="hero-layer black-gradient"></div>
+		    <div class="container-fluid h-100">
+		        <div class="row h-100">
+		            <div class="col-lg-12 h-100">
+		                <div class="hero-logo">
+		                    
+		                </div>
+		                <div class="typed-text">
+		                    <span class="skilltechtypetext">
+		                        <span class="typed-cursor">Join Our Team</span>
+		                    </span>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</section>
+		<!-- /.hero-section -->
+		
+		<section id="our-work" class="our-work-section">
+		    <div class="container-fluid">
+		        <div class="row">
+		            <div class="col-md-12 mart_bg">
+		                <h2 class="color_2e3b4e fontweg_300 text-center carrer_desp">
+		                	We’re always looking for passionate people who can bring a <span class="carrer_desp_block">
+		                	strong data science background to our growing team. </span>
+		                </h2>
+		            </div>
+		        </div>
+		    </div>
+		</section>
+
+		<section id="skills" class="skills-section mt-3 mb-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-4 ">	
+						<div class="carrer_text">					
+							<img class="img-responsive w-100" src="../../../assets/images/learning.jpg" >						
+							<p>At Aptagrim, you can grow your career on the job and through our many learning and development programs​</p>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-4">
+						<div class="carrer_text">
+							<img class="img-responsive w-100" src="../../../assets/images/team.jpg" >						
+							<p>We aren’t clock watchers, and we work in a highly results-driven way. You can expect full autonomy to experiment with your own ideas in a meritocratic environment.​</p>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-4">
+						<div class="carrer_text">
+							<img class="img-responsive w-100" src="../../../assets/images/terrific rewards.jpg" >
+						
+							<p>We offer great pay and perks, as well as the proven ability to grow. Also, we offer you an opportunity toward great career progression.​</p>
+							<div class="clearfix"></div>
+						</div>	
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Skills Section
+		================================================== -->
+		<section id="skills" class="skills-section mb-2" >
+	
+			<div class="container">
+				<nav class="hiring_country_list_nav">
+					<ul class="nav nav-tabs hiring_country_list">
+						<li class="active"><a data-toggle="tab" href="#menu4">All Openings</a></li>
+					    <li><a data-toggle="tab" href="#menu2">Singapore</a></li>
+					    <li><a data-toggle="tab" href="#menu3">UK</a></li>
+					    <li ><a data-toggle="tab" href="#menu1">India</a></li>
+					    
+					  </ul>	
+				</nav>
+				<div class="tab-content">
+				    <div id="menu1" class="tab-pane fade ">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="panel-panel">
+									<div class="panel-pane">
+										<div *ngFor="let jobs of jobs">
+											<div class="departments" *ngIf="jobs.country == 'India'">
+												<div class="col-md-4">
+													<h2 class="job_title">{{ jobs.name }}</h2>
+												</div>
+												<div class="col-md-2">
+													<h5 class="job_loction">{{ jobs.country }}</h5>
+												</div>											
+												<div class="col-md-2">
+													<h5 class="job_loction">{{ jobs.type }}</h5>
+												</div>
+												<div class="col-md-2">
+													<h5 class="job_loction">{{ jobs.jobcount }}</h5>
+												</div>
+												<div class="col-md-2">
+													<a href="carrer_descrption_intern_python.html" target="_blank" class="job_loction line_heg2em">Apply</a>
+												</div>									
+												<div class="clearfix"></div>
+											</div>
+										</div>
+										<div class="clearfix"></div>								
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="menu2" class="tab-pane fade">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="panel-panel">
+									<div class="panel-pane">
+										<!-- <div class="departments">
+											<div class="col-md-4">
+												<h2 class="job_title">UI Developer (Intern)</h2>
+											</div>
+											<div class="col-md-3">
+												<h5 class="job_loction">Singapore</h5>
+											</div>
+											<div class="col-md-2">
+												<h5 class="job_loction">3 Positions</h5>
+											</div>
+											<div class="col-md-3">
+												<a href="carrer_descrption.html" class="job_loction line_heg2em">Apply</a>
+											</div>									
+											<div class="clearfix"></div>
+										</div> -->
+										<div *ngFor="let jobs of jobs">
+											<div class="departments" *ngIf="jobs.country == 'Singapore'">
+												<div class="col-md-4">
+													<h2 class="job_title">{{ jobs.name }}</h2>
+												</div>
+												<div class="col-md-2">
+													<h5 class="job_loction">{{ jobs.country }}</h5>
+												</div>											
+												<div class="col-md-2">
+													<h5 class="job_loction">{{ jobs.type }}</h5>
+												</div>
+												<div class="col-md-2">
+													<h5 class="job_loction">{{ jobs.jobcount }}</h5>
+												</div>
+												<div class="col-md-2">
+													<a href="carrer_descrption_intern_python.html" target="_blank" class="job_loction line_heg2em">Apply</a>
+												</div>		
+											</div>							
+											<div class="clearfix"></div>
+										</div>
+										<!-- <div class="departments">
+											<h5 class="job_title text-center">Keep checking our careers site as we post new opportunities every month. We currently don’t have the functionality on our careers site for you to be notified of jobs that you might be interested in but we are working on re-enabling this feature.</h5>
+										</div> -->
+										<div class="clearfix"></div>							
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="menu3" class="tab-pane fade">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="panel-panel">
+									<div class="panel-pane">
+										<div *ngFor="let jobs of jobs">
+											<div class="departments" *ngIf="jobs.country == 'Uk'">
+												<div class="col-md-4">
+													<h2 class="job_title">{{ jobs.name }}</h2>
+												</div>
+												<div class="col-md-2">
+													<h5 class="job_loction">{{ jobs.country }}</h5>
+												</div>											
+												<div class="col-md-2">
+													<h5 class="job_loction">{{ jobs.type }}</h5>
+												</div>
+												<div class="col-md-2">
+													<h5 class="job_loction">{{ jobs.jobcount }}</h5>
+												</div>
+												<div class="col-md-2">
+													<a href="carrer_descrption_intern_python.html" target="_blank" class="job_loction line_heg2em">Apply</a>
+												</div>
+											</div>
+											<div class="departments">
+												<h5 class="job_title text-center">Keep checking our careers site as we post new opportunities every month. We currently don’t have the functionality on our careers site for you to be notified of jobs that you might be interested in but we are working on re-enabling this feature.</h5>
+											</div>
+										</div>									
+										<div class="clearfix"></div>							
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="menu4" class="tab-pane fade in active">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="panel-pane">
+									<div class="departments" *ngFor="let jobs of jobs">
+										<div class="col-md-4">
+											<h2 class="job_title">{{ jobs.name }}</h2>
+										</div>
+										<div class="col-md-2">
+											<h5 class="job_loction">{{ jobs.country }}</h5>
+										</div>											
+										<div class="col-md-2">
+											<h5 class="job_loction">{{ jobs.type }}</h5>
+										</div>
+										<div class="col-md-2">
+											<h5 class="job_loction">{{ jobs.jobcount }}</h5>
+										</div>
+										<div class="col-md-2">
+											<a href="carrer_descrption_intern_python.html" target="_blank" class="job_loction line_heg2em">Apply</a>
+										</div>									
+										<div class="clearfix"></div>
+									</div>
+									<div class="clearfix"></div>								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</section>
+		<!-- /.skills-section -->
+
+		
+		<section class="before_footer mart_bg mart_bg_properties">
+			<div class="row w-100">
+				<div class="col-sm-12 col-md-10">
+					<h4 class="text-left ">Didn’t find any<span class="font-bold"> position</span> that might interest you?</h4>
+					<p class="text-left">Shoot an open application to us at <span class="hyperlink_text">hr@aptagrim.com</span>  </p>
+				</div>
+				<div class="col-sm-12 col-md-2">
+					<a routerLink="/contact" href="" routerLinkActive="active" class="common-btn common_btn_css float-right box_shadow">  Get in touch </a>
+					<p class="clearfix"></p>
+				</div>
+			</div>
+		</section>
