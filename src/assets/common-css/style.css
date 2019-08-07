@@ -392,33 +392,43 @@ a.dropdown-toggle {
 }
 .aptai-section{
     background: url(../images/aptai_banner.jpg) 0 0 no-repeat;
+    background-size: cover;
 }
 .aptahr-section{
     background: url(../images/aptahr.jpg) 0 0 no-repeat;
+    background-size: cover;
 }
 .aptadf-section{
     background: url(../images/aptadf.jpg) 0 0 no-repeat;
+    background-size: cover;
 }
 .aptabi-section{
     background: url(../images/aptabi.jpg) 0 0 no-repeat;
+    background-size: cover;
 }
 .alaas-section {
     background: url(../images/Artificial_Intelligence_banner.jpg) 0 0 no-repeat;
+    background-size: cover;
 }
 .mldevelopment-section {
     background: url(../images/ml_support.jpg) 0 0 no-repeat; 
+    background-size: cover;
 }
 .mlsupport-section {
     background: url(../images/cybersecurity_banner.jpg) 0 0 no-repeat;
+    background-size: cover;
 }
 .newsroom-section {
     background: url(../images/Newsroom_Banner.jpg) 0 0 no-repeat;
+    background-size: cover;
 }
 .leadership-section {
     background: url(../images/leadership-banner.jpg) 0 0 no-repeat;
+    background-size: cover;
 }
 .partner-section {
     background: url(../images/Partners-banner.jpg) 0 0 no-repeat;
+    background-size: cover;
 }
 .patners_block img {
     float: left;
@@ -459,6 +469,7 @@ a.dropdown-toggle {
 }
 .career-section {
     background: url(../images/careers-banner.jpg) 0 0 no-repeat;
+    background-size: cover;
 }
 .hiring_country_list li {
     float: left;
@@ -487,9 +498,11 @@ a.dropdown-toggle {
 }
 .contact-banner-section {
     background: url(../images/contact.jpg) 0 0 no-repeat;
+    background-size: cover;
 }
 .technology-banner-section {
     background: url(../images/technology_banner.jpg) 0 0 no-repeat;
+    background-size: cover;
 }
 .main_container_wapper {
     background-color: #fff;
@@ -525,15 +538,19 @@ a.dropdown-toggle {
 }
 .predictivemaintenance-section {
     background: url(../images/preventive_maintenance_banner.jpg) 0 0 no-repeat;
+    background-size: cover;
 }
 .predictiveanalytics-section {
     background: url(../images/predictiveanalytics_banner.jpg) 0 0 no-repeat;
+    background-size: cover;
 }
 .testimonial-section {
     background: url(../images/testimonial-banner.jpg) 0 0 no-repeat;
+    background-size: cover;
 }
 .newsdescription-section {
     background: url(../images/Newsroom_Banner.jpg) 0 0 no-repeat;
+    background-size: cover;
 }
 .skills-section{
     padding-top: 60px;
