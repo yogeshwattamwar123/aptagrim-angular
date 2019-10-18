@@ -13,7 +13,7 @@ export class CareerComponent implements OnInit {
   public jobs = [];
   ngOnInit() {
 
-    this.data.getjobs().subscribe(data => this.jobs = data);
+    this.data.getjobs().subscribe(data => {this.jobs = data;console.log(data)});
 
 
 
