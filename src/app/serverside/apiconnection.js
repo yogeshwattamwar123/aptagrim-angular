@@ -1,7 +1,7 @@
 var express = require("express");
 var mongoclient = require("mongodb").MongoClient;
 
-var url = "mongodb://127.0.0.1:27017";
+var url = "mongodb+srv://yogeshwattamwar1234:wattamwar_123@aptagrimdb-1nuqk.mongodb.net/test?retryWrites=true&w=majority";
 
 var app = express();
 
