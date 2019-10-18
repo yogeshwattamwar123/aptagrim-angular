@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class JobsdataService {
-  public apiurl = "mongodb+srv://yogeshwattamwar1234:wattamwar_123@aptagrimdb-1nuqk.mongodb.net/test?retryWrites=true&w=majority/api/getjobsdatas";
+  public apiurl = "http://127.0.0.1:8000/api/getjobsdatas";
   constructor(private http:HttpClient) { }
 
   public getjobs():Observable<jobsdata[]>{
