@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class JobsdataService {
-  public apiurl = "https://aptagrim-nodejs.herokuapp.com/";
+  public apiurl = "http://127.0.0.1:8080/api/getjobsdata";
   constructor(private http:HttpClient) { }
 
   public getjobs():Observable<jobsdata[]>{
