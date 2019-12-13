@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class JobsdataService {
-  public apiurl = "mongodb+srv://yogeshwattamwar1234:wattamwar_123@aptagrimdb-1nuqk.mongodb.net/test?retryWrites=true&w=majority";
+  public apiurl = "https://aptagrim-server.herokuapp.com/api/getjobsdatas";
   constructor(private http:HttpClient) { }
 
   public getjobs():Observable<jobsdata[]>{
